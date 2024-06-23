@@ -8,6 +8,6 @@ function past(h, m, s) {
   return h * computedMs.hour + m * computedMs.minute + s * computedMs.second
 }
 
-console.log(past(0, 1, 1))
+// console.log(past(0, 1, 1))
 
 export { past }
