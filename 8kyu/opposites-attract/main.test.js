@@ -2,7 +2,7 @@ const assert = require("assert")
 
 const { lovefunc } = require("./main.js")
 
-describe("Basic tests", () => {
+describe("Opposites Attract", () => {
   it("Testing for fixed tests", () => {
     assert.strictEqual(lovefunc(1, 4), true)
     assert.strictEqual(lovefunc(2, 2), false)
