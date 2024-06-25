@@ -1,6 +1,5 @@
-// See https://www.chaijs.com for how to use Chai.
 import { strictEqual } from "assert";
-import { duplicateCount } from "./solution";
+import { duplicateCount } from "./solution.js";
 describe("Counting Duplicates", function () {
     it("test", function () {
         strictEqual(duplicateCount(""), 0);

@@ -22,5 +22,3 @@ export function duplicateCount(text: string): any {
 
   return duplicateCount
 }
-
-console.log(duplicateCount("abBc99deEe"))

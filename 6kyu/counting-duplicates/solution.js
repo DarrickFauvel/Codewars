@@ -20,4 +20,3 @@ export function duplicateCount(text) {
     }
     return duplicateCount;
 }
-console.log(duplicateCount("abBc99deEe"));
